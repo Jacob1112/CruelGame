@@ -1,0 +1,17 @@
+printTable = ["_","_","_","_","_","_","_","_"]
+myName = "nicholas"
+
+def progressPrint(name):
+    userLetter = input("type your letter")   
+    print()
+    for i in range(0,len(name)):
+        if userLetter == name[i]:
+            printTable[i] = userLetter
+        
+    for i in range(0,8):
+        print(printTable[i],"",end="")
+    print()
+    print()
+
+while "_" in printTable:
+  progressPrint(myName)
