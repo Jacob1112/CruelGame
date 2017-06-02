@@ -1,2 +1,2 @@
 # CruelGame
-Nothing worth to write about.
+Nothing worth writing about.
